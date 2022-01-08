@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LianjiaWebWorm", "LianjiaWebWorm.csproj", "{44EDF1E3-0E4A-40F2-BDB8-CC8985FD8312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44EDF1E3-0E4A-40F2-BDB8-CC8985FD8312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EDF1E3-0E4A-40F2-BDB8-CC8985FD8312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EDF1E3-0E4A-40F2-BDB8-CC8985FD8312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EDF1E3-0E4A-40F2-BDB8-CC8985FD8312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E62A090-3EF6-4C35-A9C8-59BC352AE945}
+	EndGlobalSection
+EndGlobal
