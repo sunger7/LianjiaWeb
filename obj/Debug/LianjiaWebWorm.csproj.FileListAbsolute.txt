@@ -52,4 +52,3 @@ D:\VScode\LianjiaWeb\obj\Debug\LianjiaWebWorm.csproj.CoreCompileInputs.cache
 D:\VScode\LianjiaWeb\obj\Debug\LianjiaWebWorm.csproj.CopyComplete
 D:\VScode\LianjiaWeb\obj\Debug\LianjiaWebWorm.exe
 D:\VScode\LianjiaWeb\obj\Debug\LianjiaWebWorm.pdb
-D:\VScode\LianjiaWeb\obj\Debug\LianjiaWebWorm.csproj.AssemblyReference.cache

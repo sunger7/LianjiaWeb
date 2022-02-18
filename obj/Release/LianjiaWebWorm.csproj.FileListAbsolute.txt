@@ -42,7 +42,6 @@ D:\VScode\LianjiaWeb\bin\Release\HtmlAgilityPack.xml
 D:\VScode\LianjiaWeb\bin\Release\Newtonsoft.Json.xml
 D:\VScode\LianjiaWeb\bin\Release\System.Data.SQLite.xml
 D:\VScode\LianjiaWeb\bin\Release\System.Data.SQLite.dll.config
-D:\VScode\LianjiaWeb\obj\Release\LianjiaWebWorm.csproj.AssemblyReference.cache
 D:\VScode\LianjiaWeb\obj\Release\LianjiaWebWorm.csproj.SuggestedBindingRedirects.cache
 D:\VScode\LianjiaWeb\obj\Release\LianjiaWebWorm.Form1.resources
 D:\VScode\LianjiaWeb\obj\Release\LianjiaWebWorm.Properties.Resources.resources
