@@ -34,7 +34,7 @@ namespace LianjiaWebWorm
         private void HideWebBrower(object sender,
             WebBrowserDocumentCompletedEventArgs e)
         {
-            if (webBrowser1.Document.ToString().Contains("loginHolder"))
+            if (webBrowser1.Document.Body.InnerHtml.ToString().Contains("wrapper-window-login"))
                 return;
             tableLayoutPanel1.RowStyles[0].SizeType = SizeType.Percent;
             tableLayoutPanel1.RowStyles[0].Height = 100;
@@ -60,7 +60,7 @@ namespace LianjiaWebWorm
                     }
                 }
             }
-            if (!webBrowser1.Document.ToString().Contains("loginHolder"))
+            if (!webBrowser1.Document.Body.InnerHtml.ToString().Contains("wrapper-window-login"))
                 new Thread(new ThreadStart(GetData)).Start();
             
         }
@@ -154,11 +154,11 @@ namespace LianjiaWebWorm
             {
                 lock (this)
                 {
-                    //Thread.Sleep(1000);
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                     request.UserAgent = "UserAgent=" + useragent[new Random().Next(0, useragent.Length - 1)];//从列表中随机选择一个
                     request.Timeout = 5000;
                     request.CookieContainer = cookiecontainer;
+                    request.Proxy = WebRequest.DefaultWebProxy;
                     string response = GetResponseText((HttpWebResponse)request.GetResponse());
                     return response;
                 }
@@ -439,6 +439,12 @@ namespace LianjiaWebWorm
 
         private void button2_Click(object sender, EventArgs e)
         {
+            tableLayoutPanel1.RowStyles[0].SizeType = SizeType.Percent;
+            tableLayoutPanel1.RowStyles[0].Height = 100;
+            tableLayoutPanel1.RowStyles[1].SizeType = SizeType.Percent;
+            tableLayoutPanel1.RowStyles[1].Height = 0;
+            webBrowser1.Visible = false;
+            textBox1.Visible = true;
             new Thread(new ThreadStart(
             GetSellData)).Start();
         }
